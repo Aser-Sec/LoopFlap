@@ -1,0 +1,6 @@
+
+{
+  "name": "Loop Flap",
+  "description": "An adaptive neon flight simulator where the system evolves with your skill. Powered by AserFlow.",
+  "requestFramePermissions": []
+}
