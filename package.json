@@ -3,9 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+=======
+  "homepage": "https://Aser-Sec.github.io/loop-flap",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+>>>>>>> 03fd147 (Initial commit)
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,6 +24,10 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+<<<<<<< HEAD
+=======
+    "gh-pages": "^6.3.0",
+>>>>>>> 03fd147 (Initial commit)
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
